@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity
         // on recupere l'instance du bouton valider
         btn_valider = (Button)findViewById(R.id.btn_valider);
 
-        // on recupere l'instance du bouton valider
+        // on recupere l'instance du bouton quit
         btn_quit = (Button)findViewById(R.id.btn_quit);
 
         //on recupere l'instance du login

@@ -70,9 +70,9 @@ public class User extends SugarRecord
         this.mail = mail;
     }
 
-    public List<User> getLoginPassword(String log, String pass)
+    public List<User> getLoginPassword(String log)
     {
-       return User.find(User.class, "login = ? and password = ?", log, pass) ;
+       return User.find(User.class, "login = ? ", log) ;
     }
 
 }
