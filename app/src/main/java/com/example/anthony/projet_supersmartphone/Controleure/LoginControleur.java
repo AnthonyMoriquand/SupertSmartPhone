@@ -1,7 +1,5 @@
 package com.example.anthony.projet_supersmartphone.Controleure;
 
-import android.widget.Toast;
-
 import com.example.anthony.projet_supersmartphone.Model.User;
 import com.example.anthony.projet_supersmartphone.Vue.LoginActivity;
 
