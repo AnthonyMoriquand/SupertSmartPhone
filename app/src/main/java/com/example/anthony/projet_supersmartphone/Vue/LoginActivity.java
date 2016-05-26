@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity
         //on recupere l'instance du password
         pass = (EditText) findViewById (R.id.txt_password);
 
-        //on créé le listener
+        //on créé le listener du bouton valider
          btn_valider.setOnClickListener(new OnClickListener()
          {
              @Override
@@ -62,13 +62,15 @@ public class LoginActivity extends AppCompatActivity
 
              }
          });
-
+        //on créé le listener du bouton quiter
         btn_quit.setOnClickListener(new OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
+                //on fini l'application
                 finish();
+                //on quite l'application
                 System.exit(0);
             }
         });
