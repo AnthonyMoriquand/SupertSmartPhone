@@ -22,7 +22,7 @@ public class LoginControleur
         boolean ok = false;
 
         //on recupere la liste des user qui on se login normalement il doit y en avoir un seule
-        use = user.getLoginPassword(log);
+        use = user.getAll(log);
 
         //on verfie avec la base que l'utilisateure
         if (use.isEmpty())
