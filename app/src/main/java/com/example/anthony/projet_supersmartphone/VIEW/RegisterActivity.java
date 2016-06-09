@@ -1,4 +1,4 @@
-package com.example.anthony.projet_supersmartphone.Vue;
+package com.example.anthony.projet_supersmartphone.VIEW;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
