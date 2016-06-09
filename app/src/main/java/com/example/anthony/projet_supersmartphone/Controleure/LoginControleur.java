@@ -1,7 +1,7 @@
-package com.example.anthony.projet_supersmartphone.Controller;
+package com.example.anthony.projet_supersmartphone.Controleure;
 
 import com.example.anthony.projet_supersmartphone.Model.User;
-import com.example.anthony.projet_supersmartphone.VIEW.LoginActivity;
+import com.example.anthony.projet_supersmartphone.Vue.LoginActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by Anthony on 08/04/2016.
  */
-public class LoginController
+public class LoginControleur
 {
     public void connexion(String log, String pass)
     {

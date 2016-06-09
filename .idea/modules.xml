@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Supert_Smarphone.iml" filepath="$PROJECT_DIR$/Supert_Smarphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projet_SuperSmartphone.iml" filepath="$PROJECT_DIR$/Projet_SuperSmartphone.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
