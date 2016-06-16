@@ -1,7 +1,7 @@
 package com.example.anthony.projet_supersmartphone.Controller;
 
 import com.example.anthony.projet_supersmartphone.Model.User;
-import com.example.anthony.projet_supersmartphone.Vue.LoginActivity;
+import com.example.anthony.projet_supersmartphone.View.LoginActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ public class LoginController
         //on verfie avec la base que l'utilisateure
         if (use.isEmpty())
         {
-            login.messageEreure("le login ou le password n'est pas valide");
+            login.messageErreur("le login ou le password n'est pas valide");
         }
         else
         {
@@ -46,7 +46,7 @@ public class LoginController
             }
             else
             {
-                login.messageEreure("le login ou le password n'est pas valide");
+                login.messageErreur("le login ou le password n'est pas valide");
             }
         }
 

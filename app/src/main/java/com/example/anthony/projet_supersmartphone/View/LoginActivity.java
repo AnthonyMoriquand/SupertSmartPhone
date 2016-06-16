@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity
 
     }
 
-    public void messageEreure(String texte)
+    public void messageErreur(String texte)
     {
         Toast.makeText(activity, texte, Toast.LENGTH_SHORT).show();
     }
