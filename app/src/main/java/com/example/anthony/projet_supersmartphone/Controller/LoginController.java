@@ -39,7 +39,7 @@ public class LoginController
                 }
             }
 
-            //si le mot de passe et le maime on envoie verre la page si non on afficher un message d'erreure
+            //si le mot de passe et le maime on envoie verre la page si non on afficher un message_menu d'erreure
             if (ok=true)
             {
                 //on renvoie verre la page de login
