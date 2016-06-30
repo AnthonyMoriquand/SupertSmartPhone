@@ -31,9 +31,9 @@ public class LoginActivity extends AppCompatActivity
         btn_quit = (Button)findViewById(R.id.btn_quit);
 
         //on recupere l'instance du login
-        log = (EditText) findViewById (R.id.txt_login);
 
         //on recupere l'instance du password
+        log = (EditText) findViewById (R.id.txt_login);
         pass = (EditText) findViewById (R.id.txt_password);
 
         //on créé le listener du bouton valider
