@@ -14,6 +14,7 @@ import com.example.anthony.projet_supersmartphone.R;
 
 
 
+
 /**
  * Created by PRINCE on 29/06/2016.
  */
@@ -22,7 +23,7 @@ public class MessageActivity extends Activity {
     private Button send;
     private EditText phoneNo;
     private EditText messageBody;
-    //private GoogleApiClient client;
+   // private GoogleApiClient client;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +46,7 @@ public class MessageActivity extends Activity {
                             Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(),
-                            "SMS faild, please try again later!",
+                            "SMS failed, please try again later!",
                             Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
@@ -70,12 +71,12 @@ public class MessageActivity extends Activity {
         });
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        //client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+       // client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-       // getMenuInflater().inflate(R.menu.message_menu, menu);
+       getMenuInflater().inflate(R.menu.message_menu, menu);
         return true;
     }
 
