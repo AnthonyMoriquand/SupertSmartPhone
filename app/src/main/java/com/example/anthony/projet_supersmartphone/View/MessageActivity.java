@@ -23,7 +23,7 @@ public class MessageActivity extends Activity {
     private Button send;
     private EditText phoneNo;
     private EditText messageBody;
-   // private GoogleApiClient client;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
